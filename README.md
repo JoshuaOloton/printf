@@ -6,7 +6,7 @@ _printf() is a function that performs formatted output conversion and print data
 
 Prototype:
 
-    int _printf(const char *format, ...) 
+	int _printf(const char *format, ...)
 **Format** is the string being printed.
 
 _printf() is a variadic function, it can receives n arguments that replace by n tags written inside the string.
